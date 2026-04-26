@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WASH & RENEW Deep Cleaning</title>
+<meta name="description" content="Professional deep cleaning and post-construction cleaning services in Florida.">
+
+<style>
+body {font-family: Arial, sans-serif; margin:0;}
+header {background:#0a2540; color:white; padding:40px; text-align:center;}
+nav {position:absolute; top:10px; right:20px;}
+nav button {margin-left:10px; padding:8px;}
+section {padding:40px;}
+.hero {background:url('https://images.unsplash.com/photo-1581578731548-c64695cc6952') center/cover; color:white; padding:80px 20px;}
+.services, .gallery {display:flex; gap:20px; flex-wrap:wrap; justify-content:center;}
+.card {background:#f4f4f4; padding:20px; border-radius:10px; width:300px;}
+.gallery img {width:300px; border-radius:10px;}
+form {max-width:400px; margin:auto; display:flex; flex-direction:column; gap:10px;}
+input, textarea {padding:10px;}
+button {background:#007BFF; color:white; padding:10px; border:none;}
+iframe {width:100%; height:300px; border:0;}
+footer {background:#0a2540; color:white; text-align:center; padding:20px;}
+</style>
+
+<script>
+function setLang(lang){
+ document.querySelectorAll('[data-en]').forEach(el=>{
+  el.innerText = el.getAttribute('data-'+lang);
+ });
+}
+</script>
+
+</head>
+
+<body>
+
+<nav>
+<button onclick="setLang('en')">EN</button>
+<button onclick="setLang('es')">ES</button>
+</nav>
+
+<header>
+<h3 style="margin:10px 0;">📞 407-236-6665</h3>
+<h1>WASH & RENEW</h1>
+<p data-en="Deep Cleaning & Post-Construction Specialists" data-es="Especialistas en Limpieza Profunda y Post-Construcción">Deep Cleaning & Post-Construction Specialists</p>
+</header>
+
+<section class="hero">
+<h2 data-en="We transform your space into a clean, safe and move-in ready environment" data-es="Transformamos tu espacio en un ambiente limpio, seguro y listo para habitar">We transform your space into a clean, safe and move-in ready environment</h2>
+</section>
+
+<section>
+<h2 data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+<div class="services">
+
+<div class="card">
+<h3 data-en="Post-Construction Cleaning" data-es="Limpieza Post-Construcción">Post-Construction</h3>
+<p data-en="Complete removal of dust, debris, paint residue, adhesives and construction waste. We clean floors, windows, walls, kitchens, bathrooms and every detail to make your property ready for occupancy." 
+   data-es="Eliminación completa de polvo, residuos, pintura, adhesivos y desechos de construcción. Limpiamos pisos, ventanas, paredes, cocinas, baños y cada detalle para dejar tu propiedad lista para habitar."></p>
+</div>
+
+<div class="card">
+<h3 data-en="Deep Residential Cleaning" data-es="Limpieza Residencial Profunda">Residential</h3>
+<p data-en="Detailed cleaning of kitchens, bathrooms, bedrooms and living areas. Includes sanitizing surfaces, removing grease, dust and allergens for a healthier home environment." 
+   data-es="Limpieza detallada de cocinas, baños, habitaciones y áreas comunes. Incluye desinfección de superficies, eliminación de grasa, polvo y alérgenos para un hogar más saludable."></p>
+</div>
+
+<div class="card">
+<h3 data-en="Commercial Cleaning" data-es="Limpieza Comercial">Commercial</h3>
+<p data-en="Professional cleaning services for offices, stores and commercial spaces. We ensure a clean, organized and welcoming environment for employees and customers." 
+   data-es="Servicios profesionales de limpieza para oficinas, locales y espacios comerciales. Garantizamos un ambiente limpio, organizado y agradable para empleados y clientes."></p>
+</div>
+
+<div class="card">
+<h3 data-en="Move-In / Move-Out Cleaning" data-es="Limpieza de Mudanza">Move In/Out</h3>
+<p data-en="Full cleaning before moving in or after moving out. We make sure the property is spotless and ready for the next occupant." 
+   data-es="Limpieza completa antes de mudarse o después de desocupar. Dejamos la propiedad impecable y lista para el siguiente ocupante."></p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 data-en="Gallery (Before & After)" data-es="Galería (Antes y Después)">Gallery</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
+<img src="https://images.unsplash.com/photo-1563453392212-326f5e854473">
+</div>
+</section>
+
+<section>
+<h2 data-en="Contact Us" data-es="Contáctanos">Contact Us</h2>
+<p style="text-align:center; font-size:18px;">📞 <a href="tel:14072366665">407-236-6665</a></p>
+<form>
+<input type="text" placeholder="Name / Nombre" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="Message / Mensaje"></textarea>
+<button type="submit">Send</button>
+</form>
+</section>
+
+<section>
+<h2 data-en="Location" data-es="Ubicación">Location</h2>
+<iframe src="https://www.google.com/maps?q=Davenport\+FL&output=embed"></iframe>
+</section>
+
+<footer>
+<p>© 2026 WASH & RENEW Deep Cleaning</p>
+</footer>
+
+</body>
+</html>
